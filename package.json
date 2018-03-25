@@ -1,0 +1,24 @@
+{
+  "name": "@jnv/spotify-serial-control",
+  "description": "Control Spotify playback by reading serial port",
+  "private": true,
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Jan Vlnas <npm@jan.vlnas.cz>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "serialport": "^6.1.1",
+    "spotify-web-api-node": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "prettier": "^1.11.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
